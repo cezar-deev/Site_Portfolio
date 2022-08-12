@@ -357,10 +357,10 @@ section .title::after{
     background: #00804b;
 }
 .teams .carousel .card img{
-    width: 150px;
-    height: 150px;
+    width: 270px;
+    height: 200px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 5%;
     border: 5px solid #00804b;
     transition: all 0.3s ease;
 }
@@ -404,7 +404,7 @@ section .title::after{
 }
 /*  sessão Contato  */
 .contact .title::after{
-    content: "Fale conosco";
+    content: "";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
