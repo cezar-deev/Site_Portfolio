@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    
+
     //--Evento ao rolar o scroll do mouse--//
     $(window).scroll(function(){  
         //--Barra Superior verde--//
@@ -18,7 +18,11 @@ $(document).ready(function(){
 
     $('.scroll-up-btn').click(function(){
          $('html').animate({scrollTop: 0});
+    });
 
+    $('.menu-btn').click(function(){
+        $('.navbar .menu').toggleClass("active");
+        $('.menu-btn i').toggleClass("active");
     });
     
 });
