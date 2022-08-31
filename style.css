@@ -394,6 +394,17 @@ section .title::after{
     color: #fff;
 }
 
+.text-b{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0 7px 0;
+    color: #fff;
+}
+
+.text-a:hover {
+    color: #00804b;
+}
+
 .owl-dots{
     text-align: center;
     margin-top: 20px;
@@ -628,3 +639,4 @@ footer span a:hover{
         font-size: 27px;
     }
 }
+
