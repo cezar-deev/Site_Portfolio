@@ -30,6 +30,13 @@ body {
     transition: all 0.3s ease;
     background-color: #111;
 }
+
+.navbar-icon {
+    color:#fff;
+    font-size: 60px;
+    
+}
+
 .navbar.sticky{
      background: #00804b;
      padding: 15px 0;
@@ -276,17 +283,23 @@ aside a {
     background-color: #00804b;
     font-family: 'Ubuntu', sans-serif;
     color: #fff;
-    width: 100px;
-    padding: 5px;
+    width: 120px;
+    padding: 7px;
     border-radius: 20px;
     align-content: center;
     border-color: #fff;
     box-shadow: #111;
 }
 
+.voltar-btn a {
+    color: #fff;
+    font-size: 15px;
+}
+
 .voltar-btn:hover {
     cursor: pointer;
     transform: scale(1.1);
-    transition: all 0.5s;
+    transition: all 0.5s ease;
+    background-color: #111;
   }
 
