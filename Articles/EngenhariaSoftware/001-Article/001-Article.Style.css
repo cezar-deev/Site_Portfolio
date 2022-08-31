@@ -201,9 +201,7 @@ footer span a:hover{
         width: 100%;
         margin-bottom: 35px;
     }
-    footer{
-        margin-top: 15px;
-    }
+
 
 }
 
@@ -258,14 +256,26 @@ h3, p {
 
 
 aside {
+    font-family: 'Ubuntu', sans-serif;
     padding-top: 10px;
     background-color: whitesmoke;
-    text-align: center;
-       
+    text-align: center;     
 }
 
-.btn-voltar {
+aside a {
+    color:#111;
+    font-family: 'Ubuntu', sans-serif;  
+}
+
+.voltar {
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.voltar-btn {  
     background-color: #00804b;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
     width: 100px;
     padding: 5px;
     border-radius: 20px;
@@ -273,4 +283,10 @@ aside {
     border-color: #fff;
     box-shadow: #111;
 }
+
+.voltar-btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.5s;
+  }
 
