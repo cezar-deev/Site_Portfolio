@@ -175,7 +175,7 @@ section .title::after{
     background: #222;
     text-align: center;
     border-radius: 6px;
-    padding: 20px 25px;
+    padding: 20px 20px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -189,14 +189,14 @@ section .title::after{
     transform: scale(1.05);
 }
 .services .serv-content .card ion-icon{
-    font-size: 70px;
+    font-size: 30px;
     color: #00804b;
 }
 .services .serv-content .card:hover ion-icon{
     color: #fff;
 }
 .services .serv-content .card .text{
-    font-size: 25px;
+    font-size: 15px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
