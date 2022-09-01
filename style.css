@@ -13,7 +13,7 @@ html{
     padding: 0 80px;
     margin: auto;
 }
-/*  navbar   inicio*/
+/*  --------------  navbar inicio-----------------*/
 .navbar{
     position: fixed;
     width: 100%;
@@ -60,7 +60,9 @@ html{
 .navbar.sticky .menu li a:hover{
     color: #fff;
 }
-/*  Home   inicio  */
+
+
+/* ----------- Home Inicio ----------  */
 .home{
     display: flex;
     background: url(image/fundo-preto.jpg) no-repeat;
@@ -104,7 +106,8 @@ html{
     background: none;
 }
 
-/*  Menu  Mobile  */
+
+/*  ---------------- Menu Mobile -----------------  */
 .menu-btn{
     color: #fff;
     font-size: 26px;
@@ -136,7 +139,7 @@ html{
     
 }
 
-/*  todos os codigos similares  */
+/*  ---------------- Todos os codigos similares ---------------  */
 section{
     padding: 100px 0;
 }
@@ -182,7 +185,7 @@ section .title::after{
     justify-content: space-between;
 }
 
-/*  sessão sobre  */
+/*  ----------------- Sessão sobre -------------------- */
 
 .about .title::after{
     content: "Quem sou eu";
@@ -226,7 +229,8 @@ section .title::after{
     object-fit: cover;
     border-radius: 6px;
 }
-/*  sessão serviços */
+
+/*  ------------------ sessão serviços ---------------- */
 .services, .teams{
     background: #111;
     color: #fff;
@@ -270,7 +274,8 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-/*  sessão especialidades  */
+
+/*  ---------------- sessão especialidades ----------------- */
 .skills .title::after{
     content: "Em aprendizado";
 }
@@ -342,7 +347,8 @@ section .title::after{
 .skills .skills-content .right .mysql::before{
     width: 100%;
 }
-/*  sessão equipe  */
+/*  ----------------- Sessão Projetos ----------------- */
+
 .teams .title::after{
     content: "Projetos iniciais e simples em HTML/CSS/Javascript";
 }
@@ -519,7 +525,7 @@ section .title::after{
     background: none;
 }
 
-/*  sessão footer  */
+/*  ---------------- sessão footer ----------------------- */
 footer{
     background: #111;
     padding: 20px 23px;
@@ -535,7 +541,7 @@ footer span a:hover{
 }
 
 
-/*  responsivo  */
+/*  ------------------------- responsivo ----------------------  */
 @media (max-width: 1300px){
     .navbar .max-width{
         margin-left: 0;
