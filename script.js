@@ -20,13 +20,13 @@ $(document).ready(function(){
      });
     //--Escritas Automaticas--//
      var typed = new Typed(".typing", {
-         strings:[ "Supervisor de Sistemas", "Engenheiro de Software", "Desenvolvedor",],
+         strings:[ "Supervisor de Sistemas", "Engenheiro de Software*", "Desenvolvedor",],
          typeSpeed:100,
          backSpeed:60,
          loop:true
      });
      var typed = new Typed(".typing-2", {
-        strings:[ "Supervisor de Sistemas", "Engenheiro de Software", "Desenvolvedor",],
+        strings:[ "Supervisor de Sistemas", "Engenheiro de Software*", "Desenvolvedor",],
         typeSpeed:100,
         backSpeed:60,
         loop:true
