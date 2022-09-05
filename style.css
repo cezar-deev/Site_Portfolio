@@ -242,7 +242,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "Em breve";
+    content: "Diveros";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -275,9 +275,9 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 
-/*  ---------------- sessão especialidades ----------------- */
+/*  ---------------- sessão Qualificações/skills ----------------- */
 .skills .title::after{
-    content: "Em aprendizado";
+    content: "Skills";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -350,7 +350,7 @@ section .title::after{
 /*  ----------------- Sessão Projetos ----------------- */
 
 .teams .title::after{
-    content: "Projetos iniciais e simples em HTML/CSS/Javascript";
+    content: "Basicos";
 }
 .teams .carousel .card{
     background: #222;
@@ -390,6 +390,7 @@ section .title::after{
 }
 
 .text-a{
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 400;
     margin: 10px 0 7px 0;
