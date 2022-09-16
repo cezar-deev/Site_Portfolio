@@ -173,7 +173,7 @@ section .title::after{
     transform: translateX(-50%);
 }
 .about, .services, .skills, .teams, .contact, footer{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 .about .about-content,
 .services .serv-content,
@@ -257,6 +257,7 @@ section .title::after{
     background: #00804b;
 }
 .services .serv-content .card .box{
+    
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover .box{
@@ -365,10 +366,11 @@ section .title::after{
 .teams .carousel .card img{
     width: 270px;
     height: 200px;
-    object-fit: cover;
+    /*object-fit: cover; - obs: estava cortando a imagem*/ 
     border-radius: 5%;
     border: 5px solid #00804b;
     transition: all 0.3s ease;
+    
 }
 .teams .carousel .card:hover img{
     border-color: #fff;
@@ -390,7 +392,7 @@ section .title::after{
 }
 
 .text-a{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
     font-weight: 400;
     margin: 10px 0 7px 0;
@@ -408,9 +410,6 @@ section .title::after{
     color: #fff;
 }
 
-.text-a:hover {
-    color: #00804b;
-}
 
 .owl-dots{
     text-align: center;
@@ -489,7 +488,7 @@ section .title::after{
     outline: none;
     padding: 0 15px;
     font-size: 17px;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 .contact .rigth form .name{
     margin-right: 10px;
