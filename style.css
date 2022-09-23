@@ -353,7 +353,7 @@ section .title::after{
 /*  ----------------- Sessão Projetos ----------------- */
 
 .teams .title::after{
-    content: "Baseados em cursos feitos";
+    content: "Diversos";
 }
 .teams .carousel .card{
     background: #222;
