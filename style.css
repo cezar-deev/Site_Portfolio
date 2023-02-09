@@ -244,7 +244,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "Diveros";
+    content: "Diversos";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -353,7 +353,7 @@ section .title::after{
 /*  ----------------- Sessão Projetos ----------------- */
 
 .teams .title::after{
-    content: "Diversos";
+    content: "HTML - CSS - JAVASCRIPT";
 }
 .teams .carousel .card{
     background: #222;
