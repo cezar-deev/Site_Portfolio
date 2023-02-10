@@ -20,15 +20,15 @@ $(document).ready(function(){
      });
     //--Escritas Automaticas--//
      var typed = new Typed(".typing", {
-         strings:[ "Engenheiro de Software*", "Desenvolvedor Web",],
-         typeSpeed:100,
-         backSpeed:60,
+         strings:[ "Desenvolvedor Web","Graduando em Engenharia de Software", "Supervisor de Sistemas ControlTub",],
+         typeSpeed:50,
+         backSpeed:30,
          loop:true
      });
      var typed = new Typed(".typing-2", {
-        strings:[ "Engenheiro de Software*", "Desenvolvedor Web",],
-        typeSpeed:100,
-        backSpeed:60,
+        strings:[ "Desenvolvedor Web", "Graduando em Engenharia de Software", "Supervisor de Sistemas ControlTub",],
+        typeSpeed:50,
+        backSpeed:30,
         loop:true
     });
 

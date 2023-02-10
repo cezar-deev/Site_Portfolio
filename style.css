@@ -141,7 +141,7 @@ html{
 
 /*  ---------------- Todos os codigos similares ---------------  */
 section{
-    padding: 100px 0;
+    padding: 40px 0;
 }
 section .title{
     font-family: 'Ubuntu', sans-serif;
@@ -280,7 +280,7 @@ section .title::after{
 
 /*  ---------------- sessão Qualificações/skills ----------------- */
 .skills .title::after{
-    content: "Skills";
+    content: "__________________________";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
