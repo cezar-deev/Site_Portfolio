@@ -65,7 +65,7 @@ html{
 /* ----------- Home Inicio ----------  */
 .home{
     display: flex;
-    background: url(image/fundo-preto.jpg) no-repeat;
+    background: url(image/fundo-preto-novo.png) no-repeat;
     background-size: cover;
     height: 100vh;
     color: #fff;
@@ -353,7 +353,7 @@ section .title::after{
 /*  ----------------- Sessão Projetos ----------------- */
 
 .teams .title::after{
-    content: "HTML - CSS - JAVASCRIPT";
+    content: "HTML - CSS - JAVASCRIPT - ANGULAR";
 }
 .teams .carousel .card{
     background: #222;
