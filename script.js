@@ -26,7 +26,7 @@ $(document).ready(function(){
          loop:true
      });
      var typed = new Typed(".typing-2", {
-        strings:[ "Desenvolvedor Web", "Graduando em Engenharia de Software", "Supervisor de Sistemas ControlTub",],
+        strings:[ "Engenharia de Software", "Supervisor de Sistemas",],
         typeSpeed:50,
         backSpeed:30,
         loop:true
