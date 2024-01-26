@@ -20,7 +20,7 @@ $(document).ready(function(){
      });
     //--Escritas Automaticas--//
      var typed = new Typed(".typing", {
-         strings:[ "Desenvolvedor Web","Graduando em Engenharia de Software", "Supervisor de Sistemas ControlTub",],
+         strings:[ "Engenharia de Software", "Supervisor de Sistemas",],
          typeSpeed:50,
          backSpeed:30,
          loop:true
